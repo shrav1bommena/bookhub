@@ -1,0 +1,148 @@
+@media screen and (min-width: 768px) {
+  .login-container {
+    display: flex;
+  }
+}
+
+.login-desktop-left-section {
+  background-image: url('https://res.cloudinary.com/dzduqsp2x/image/upload/v1666082315/Rectangle_1467_pfc0re.png');
+  background-size: cover;
+  height: 100vh;
+  width: 50vw;
+}
+
+.login-right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .login-right-section {
+    background-color: #f8fafc;
+    /* width: 45vw; */
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.form-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-container {
+    width: 90%;
+    max-width: 499px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-logo-website-mobile-image {
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-logo-website-mobile-image {
+    display: none;
+  }
+}
+
+.login-logo-website-desktop-image {
+  width: 55vw;
+  height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  .login-logo-website-desktop-image {
+    display: none;
+  }
+}
+
+.login-website-logo {
+  margin-bottom: 23px;
+}
+
+.input-container {
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .input-container {
+    width: 80%;
+  }
+}
+
+.input-label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5a7184;
+}
+
+.input-field {
+  font-size: 16px;
+  height: 56px;
+  margin-top: 10px;
+  padding: 18px 20px;
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  outline: none;
+}
+
+.error-msg {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ef4444;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .error-msg {
+    width: 80%;
+  }
+}
+
+.login-button {
+  background-color: #0284c7;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  height: 40px;
+  width: 90%;
+  margin-top: 32px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .login-button {
+    height: 56px;
+    width: 80%;
+    font-size: 18px;
+  }
+}

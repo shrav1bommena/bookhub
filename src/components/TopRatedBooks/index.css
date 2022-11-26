@@ -1,0 +1,226 @@
+.top-rated-books-container {
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-books-container {
+    width: 90%;
+    max-width: 1140px;
+    margin: auto;
+    border-radius: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-book-top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.find-book-link-desktop-button {
+  text-decoration: none;
+  margin-right: 6%;
+  margin-top: 10px;
+}
+
+.top-rated-book-top-section-find-books-button {
+  font-family: 'Roboto';
+  padding: 10px 20px;
+  width: 104px;
+  height: 36px;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 4px;
+  flex-grow: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .top-rated-book-top-section-find-books-button {
+    display: none;
+  }
+}
+
+.top-rated-heading {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  justify-self: flex-start;
+  align-self: flex-start;
+  margin-top: 20px;
+  margin-left: 8%;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-heading {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-heading {
+    margin-top: 36px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+}
+
+.slick-container {
+  list-style-type: none;
+  padding-left: 28px;
+  padding-right: 28px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.top-rated-book-container {
+  padding: 10px;
+}
+
+.top-rated-book-link-container {
+  text-decoration: none;
+}
+
+.top-rated-book-cover-pic-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.top-rated-book-cover-pic {
+  width: 100%;
+  margin-right: 0px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 576px) {
+  .top-rated-book-cover-pic {
+    max-width: 200px;
+  }
+}
+
+.top-rated-book-title {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  color: #334155;
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-book-title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 5px;
+  }
+}
+
+.top-rated-book-author {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #475569;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-book-author {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #e5e5e5;
+  height: 16px;
+  width: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-prev:before,
+  .slick-next:before {
+    color: rgba(152, 152, 152, 0.35);
+    border-radius: 12px;
+  }
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.top-rated-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-failure-container {
+    margin-top: 42px;
+    margin-bottom: 48px;
+  }
+}
+
+.top-rated-failure-img {
+  width: 245px;
+  height: 120px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-failure-img {
+    height: 170px;
+    width: 347px;
+  }
+}
+
+.top-rated-failure-desc {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #475569;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-failure-desc {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+}
+
+.top-rated-failure-try-again {
+  width: 87px;
+  height: 32px;
+  background-color: #0284c7;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+}
