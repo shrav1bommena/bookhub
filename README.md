@@ -11,5 +11,4 @@ Stars, React Select.\
 ● Implemented username and password authentication and persisted login state using client storage.\
 ● Implemented a protected route to ensure only authenticated users can access the pages like home,\
 bookshelves, etc.\
-**Technologies used:** HTML, CSS, JavaScript, React JS, Bootstrap, React Rating Stars, React Select, Figma,\
-client storage.
+**Technologies used:** HTML, CSS, JavaScript, React JS, Figma, client storage.
